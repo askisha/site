@@ -1,0 +1,284 @@
+.mobile-banner{
+	display:none;
+}
+.banner-iot{
+    background-image: url("../images/iot-slider.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.slider {
+    width: 50%;
+    /* margin: 0 auto 20px; */
+    text-align: center;
+    margin-left: 30px;
+}
+
+.slider .photos {
+    position: relative;
+    height: 433px;
+}
+#hello{
+   
+    height: 917px;
+}
+#fontie{
+    font-size: 36px;
+    margin-top: 19px;
+    font-weight: bold;
+    color: black;
+}
+#minheading {
+    color: #37a2d6;
+   
+}
+.big-btn {
+    background-color: #3b59f3;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    width: 48%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 73px;
+}
+
+#topheading{
+    margin-top: 240px;
+}
+.slider .photos img {
+    width: 100%;
+	height:auto;
+    position: absolute;
+	
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.slider .photos .ima-22 {       
+    width: auto !important;
+    position: absolute;
+	height:auto !important;
+    left: -20px;
+	top:60px !important;
+    opacity: 0;
+    transition: opacity 1s;
+	}
+.slider .photos img.shown {
+    opacity: 1;
+}
+.buttons{
+    position: relative;
+}
+.buttons .prev{
+    position: absolute;
+    top: 238px;
+    left:-148px;
+}
+.buttons .next{
+    position: absolute;
+    top: 238px; 
+    right: -135px;
+}
+.pre-ne{
+    color:#9f9f9f;
+    font-size:35px ;
+    font-weight: 400 ;
+}
+.fa-arrow-left{
+    font-size: 40px;
+    color: #9f9f9f;
+	-webkit-text-stroke: 4px aliceblue !important;
+}
+.fa-arrow-right{
+    font-size: 40px;
+    color:#114563;
+	-webkit-text-stroke: 4px aliceblue !important;
+}
+.pre-nex{
+    color:#114563;
+    font-size:35px ;
+    font-weight: 400 ;
+}
+/* .prev:before,
+.next:before {
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+} */
+
+/* .prev:before {
+  content: '<';
+  left: 0;
+}
+
+.next:before {
+  content: '>';
+  right: 0;
+} */
+
+
+
+
+@media screen and (min-width:280px) and (max-width:600px) {
+	.mobile-banner{
+		display:block;
+	}
+	.desk-banner{
+		display:none;
+	}
+    .banner-iot {
+        background-image: url("../mobile-images/robitic-iot.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+		margin-top:15px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .buttons .prev {
+        position: absolute;
+        top: 57px;
+        left: 39px;
+    }
+    .buttons .next {
+        position: absolute;
+        top: 0px;
+        right: 39px;
+    }  
+	.pre-nex {
+    color: #114563;
+    right: -149px;
+    position: absolute;
+    font-size: 19px;
+    top: 88px;
+    font-weight: 400;
+}
+	.fa-arrow-right {
+		font-size: 19px;
+		color: #114563;
+		 right: -172px;
+    position: absolute;
+    font-size: 18px;
+	-webkit-text-stroke: 0px #e9f4fe !important;
+    top: 90px;
+	}
+	.pre-ne {
+    color: #9f9f9f;
+    font-size: 18px;
+    top: 32px;
+    left: -42px;
+    position: absolute;
+    font-weight: 400;
+}
+	.fa-arrow-left {
+    font-size: 19px;
+    position: absolute;
+    color: #9f9f9f;
+    top: 32px;
+    left: -66px;
+	-webkit-text-stroke: 0px #e9f4fe !important;
+}
+.slider .photos .ima-22 {
+    width: auto !important;
+    position: absolute;
+    height: auto !important;
+    left: -20px;
+    top: 6px !important;
+    opacity: 0;
+    transition: opacity 1s;
+}
+	
+}
+
+
+@media screen and (min-width:768px) and (max-width:1020px){
+    .banner-iot {    
+        background-size: cover;
+        width: 100%;
+        height: 269px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .pre-ne {
+        color: #9f9f9f;
+        font-size: 29px;
+        font-weight: 400;
+    }
+    .fa-arrow-left {
+        font-size: 29px;
+        color: #9f9f9f;
+    }
+    .pre-nex {
+        color: #44e9ff;
+        font-size: 29px;
+        font-weight: 400;
+    }
+    .fa-arrow-right {
+        font-size: 29px;
+        color: #44e9ff;
+    }
+    .buttons .prev {
+        position: absolute;
+        top: 263px;
+        left: -112px;
+    }
+    .buttons .next {
+        position: absolute;
+        top: 263px;
+        right: -112px;
+    }
+}
+@media (min-width:1281px){
+	.slider .photos .ima-11 {
+    width: auto !important;
+    position: absolute;
+	height:auto !important;
+    left: 0;
+	top:0px; 
+    transition: opacity 1s;
+	}
+	.slider .photos .ima-22 {
+    width: auto !important;
+    position: absolute;
+	height:auto !important;
+    left: -20px;
+	top:60px !important;
+    opacity: 0;
+    transition: opacity 1s;
+	}
+
+
+}
+@media (min-width:1400px){
+	.banner-iot{
+    background-image: url("../images/iot-slider.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 510px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+@media screen and (width:1920px){
+	.banner-iot{
+    background-image: url("../images/iot-slider.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+@media (min-width:1280px) and (max-width:1300px){
+	.banner-iot{
+     background-image: url("../images/iot-slider.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 510px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,341 @@
+.techn{
+letter-spacing:50px;
+color: #114563;
+}
+p{
+	font-weight:400;
+}
+.mobile-tech{
+	display:none;
+}
+.mobilee{
+display:none;
+}
+.tech-back{
+    width: 100%;
+    height: auto;
+
+     /*
+ background-image:url("../images/tech/banner.jpg");
+ background-size: cover;
+    width: 100%;
+    height: 0px;
+    background-position:center center;
+    background-repeat: no-repeat;
+    */
+} 
+.w-75{
+width:89%;
+}
+.tech-p{
+font-size:18px;
+}
+.pad-d{
+padding-top:20px !important;
+padding-bottom:20px;
+
+
+}
+.ai-i{
+  /* background-image: url("../technology-images/AI Background without image 450  png3.png"); */
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-position:-3px 38px;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+.ic-im{
+display:flex;
+}
+.ic-im h5{
+padding-top: 17px;
+    padding-left: 7px;
+	font-size:16px;
+}
+.tech-icon{
+display:flex;
+}
+.ml-i{
+   /* background-image: url("../technology-images/machine learning Without image background 2 600.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.mach{
+padding-top:20px;
+}
+.machh{
+padding-top:90px !important;
+}
+.proto{
+  /* background-image: url("../technology-images/prototype background 450.png"); */
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background-position:-3px 38px;
+    background-repeat: no-repeat;
+}
+.pt-3{
+padding-top:40px;
+}
+.printing{
+  /* background-image: url("../technology-images/3d Printing Background 450.png"); */
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-position:center center;
+    background-repeat: no-repeat;
+    /* background-color: rgb(228, 220, 220); */
+	margin-top:30px !important;
+    margin-bottom: 40px;
+}
+.embedded{
+  /* background-image: url("../technology-images/Embedded Technology background 600.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-position:center center;
+    background-repeat: no-repeat;
+margin-top:30px;
+
+}
+.software{
+	background:white;
+    width: 100%;
+    height: 500px;
+    background-position:center center;
+    background-repeat: no-repeat;
+margin-top:30px;
+background-color: #eee;
+margin-bottom: 40px;
+
+}
+
+.mechanical{
+  /* background-image: url("../technology-images/Mechanical Design background 600.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-position:center center;
+    background-repeat: no-repeat;
+
+
+}
+.col-md-5:hover img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+@media screen and (min-width: 280px) and (max-width: 600px){
+	p{
+		font-weight:400 !important;
+	}
+.mobilee{
+display:block !important;
+}
+.desktop-tech{
+	/* display:none; */
+}
+.mobile-tech{
+	display:block;
+}
+.techn {
+    letter-spacing: 16px;
+    color: #114563;
+font-size:17px;
+font-weight:500;
+}
+.machh {
+    padding-top: 0px !important;
+}
+.w-75 {
+    width: 75% !important;
+}
+.ic-im h5 {
+    padding-top: 0px !important;
+    padding-left: 7px;
+}
+.ic-im {
+    display: flex;
+    padding-bottom: 15px;
+}
+.pppp{	
+	padding-bottom:10px;
+}
+.w-5{
+	width:100% !important;
+	
+}
+.mach {
+    padding-top: 0px !important;
+}
+.ai-i {
+    background-image: url("../technology-images/AI Background without image 450 png3.png");
+    background-size: cover;
+    width: 100%;
+    height: auto !important;
+    background-position: -3px 38px;
+    background-repeat: no-repeat;
+}
+/* .tech-back {
+   background-image:url("../technology-images/mobile slider copy (1).jpg");
+    background-size: cover;
+    width: 100%;
+    height: 395px !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+} */
+.pad-d {
+    padding-top: 25px !important;
+    padding-bottom: 20px;
+	margin-top:0px;
+}
+.col-md-5{
+text-align:center;
+}
+.ml-i {
+    /* background-image: url("../technology-images/machine learning without image background 450.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: auto !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+	padding-bottom:25px;
+}
+.proto {
+    background-image: url("../technology-images/prototype background 450.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: -3px 38px;
+    background-repeat: no-repeat;
+}
+.printing {
+    background-image: none;
+    background-size: cover;
+    width: 100%;
+    height: auto !important;
+      background-position: -31px 72px;
+    background-repeat: no-repeat;
+	/* margin-top:10px ; */
+/*	background-color: aliceblue; */
+}
+.embedded {
+    /* background-image: url("../technology-images/Embedded Technology background 450.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: auto !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+	padding-top:10px;
+}
+.software {
+    background: white;
+    width: 100%;
+    height: auto !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+}
+.mechanical {
+    /* background-image: url("../technology-images/Mechanical Design background 600.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: auto !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pt-3 {
+    padding-top: 8px !important;
+}
+}
+@media screen and (min-width:1500px){
+
+.embedded {
+    /* background-image: url("../technology-images/Embedded Technology background 600.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: 600px !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.ml-i {
+    /* background-image: url("../technology-images/machine learning Without image background 2 600.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: 600px !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.mechanical {
+    /* background-image: url("../technology-images/Mechanical Design background 600.jpg"); */
+    background-size: cover;
+    width: 100%;
+    height: 600px !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+
+/* @media screen and (min-width:1084px){
+    #robotics{
+        margin-top: 600px;
+        background-color: antiquewhite;
+    }  
+  }
+  @media screen and (min-width:718px){
+    #robotics{
+        margin-top: 250px;
+        background-color: antiquewhite;
+    }  
+  }
+  @media screen and (min-width:1880px){
+    #robotics{
+        margin-top: 70px;
+        background-color: antiquewhite;
+    }  
+  }
+  @media screen and (min-width:1486px){
+    #robotics{
+        margin-top: 550px;
+        background-color: antiquewhite;
+    }  
+  }
+  @media screen and (max-width:1482px){
+    #robotics{
+        margin-top: 550px;
+        background-color: antiquewhite;
+    }  
+  }
+  @media screen and (max-width:1402px){
+    #robotics{
+        margin-top: 500px;
+        background-color: antiquewhite;
+    }  
+  }
+  @media screen and (max-width:1880px){
+    #robotics{
+        margin-top: 80px;
+        background-color: antiquewhite;
+    }  
+  }
+  @media screen and (max-width:1500px){
+    #robotics{
+        margin-top: 10px;
+        background-color: antiquewhite;
+    }  
+  }
+  @media screen and (max-width:1394){
+    #robotics{
+        margin-top: 600px;
+        background-color: antiquewhite;
+    }  
+  }
+  #roboics{
+      margin-top: 600px;
+  } */

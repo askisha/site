@@ -1,0 +1,541 @@
+.cshero-header-logo img {
+  height: 42px;
+}
+.mobile-vision {
+  display: none;
+}
+
+hr:not([size]) {
+  width: 33%;
+  height: 1px;
+  border-radius: 8px;
+  background-color: black;
+  opacity: 30%;
+  margin: 0;
+}
+
+.build-the {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 55px;
+  margin-bottom: 0;
+}
+
+.page-title {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.page-title #page-title-text h1 {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out;
+}
+.wf-loading .page-title #page-title-text h1 {
+  opacity: 0;
+}
+.ie.wf-loading .page-title #page-title-text h1 {
+  visibility: hidden;
+}
+a {
+  color: #2a2b2f;
+}
+a:hover {
+  color: #6b6d6f;
+}
+.mobile-n {
+  margin-left: 8px;
+}
+.location {
+  margin-left: 16px;
+}
+.fa-phone,
+.fa-map-marker {
+  padding-left: 2px;
+}
+body {
+  font-family: "Open Sans";
+  line-height: 25px;
+  font-weight: normal;
+  font-style: normal;
+  color: #6b6d6f;
+  font-size: 14px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out;
+}
+.wf-loading body {
+  opacity: 0;
+}
+.ie.wf-loading body {
+  visibility: hidden;
+}
+body h1 {
+  line-height: 45px;
+  color: #2a2b2f;
+  font-size: 32px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out;
+}
+.wf-loading body h1 {
+  opacity: 0;
+}
+.ie.wf-loading body h1 {
+  visibility: hidden;
+}
+body h2 {
+  line-height: 44px;
+  font-weight: 700;
+  color: black;
+  font-size: 45px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.wf-loading body h2 {
+  opacity: 0;
+}
+.ie.wf-loading body h2 {
+  visibility: hidden;
+}
+body h3 {
+  line-height: 33px;
+  color: #2a2b2f;
+  font-size: 40px;
+  font-weight: 400;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out;
+  text-align: center;
+}
+.wf-loading body h3 {
+  opacity: 0;
+}
+.ie.wf-loading body h3 {
+  visibility: hidden;
+}
+body h4 {
+  line-height: 25px;
+  color: #2a2b2f;
+  font-size: 18px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out;
+}
+.wf-loading body h4 {
+  opacity: 0;
+}
+.ie.wf-loading body h4 {
+  visibility: hidden;
+}
+body h5 {
+  line-height: 25px;
+  color: #2a2b2f;
+  font-size: 14px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out;
+}
+.wf-loading body h5 {
+  opacity: 0;
+}
+.ie.wf-loading body h5 {
+  visibility: hidden;
+}
+body h6 {
+  line-height: 18px;
+  color: #2a2b2f;
+  font-size: 12px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.24s ease-in-out;
+  -moz-transition: opacity 0.24s ease-in-out;
+  transition: opacity 0.24s ease-in-out;
+}
+.wf-loading body h6 {
+  opacity: 0;
+}
+.ie.wf-loading body h6 {
+  visibility: hidden;
+}
+.cshero-footer-top-1 {
+  background-color: #fff;
+}
+.cshero-footer-top-1 .cshero-footer-top {
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+.cshero-footer-top-1 {
+  color: #6b6d6f;
+}
+.cshero-footer-top-1 a {
+  color: #6b6d6f;
+}
+.cshero-footer-top-1 a:hover {
+  color: #101010;
+}
+.cshero-footer-top-1 a:active {
+  color: #101010;
+}
+.footer-bottom-1 .footer-bottom-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-bottom-1 .footer-bottom-wrap {
+  border-top: 1px solid #eee;
+}
+.footer-bottom-1 {
+  color: #6b6d6f;
+}
+.cshero-footer-top-2 {
+  background-color: #303236;
+}
+.cshero-footer-top-2 .cshero-footer-top {
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+.cshero-footer-top-2 .widget .wg-title {
+  color: #ffffff;
+}
+.footer-bottom-2 .footer-bottom-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-bottom-1 {
+  color: #6b6d6f;
+}
+.footer-bottom-2 a {
+  color: #6b6d6f;
+}
+.footer-bottom-2 a:hover {
+  color: #fff;
+}
+.footer-bottom-2 a:active {
+  color: #fff;
+}
+.cshero-footer-top-3 {
+  background-color: #eee;
+}
+.cshero-footer-top-3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.cshero-footer-top-3 {
+  color: #2a2b2f;
+}
+.cshero-footer-top-3 a {
+  color: #2a2b2f;
+}
+.cshero-footer-top-3 a:hover {
+  color: #97999c;
+}
+.cshero-footer-top-3 a:active {
+  color: #97999c;
+}
+#page-title.page-title-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  background-color: ;
+  background-image: url(http://abcgomel.spyropress.com/elementy/wp-content/uploads/2016/04/bg-about-us.jpg);
+}
+</style > <style type="text/css" > .indent-header {
+  background-color: transparent;
+}
+.main-navigation .menu-main-menu > li > a {
+  padding-top: 21px;
+}
+.affix .main-navigation .menu-main-menu > li > a {
+  padding-top: 7px;
+}
+.header-search-cart {
+  padding-top: 26px;
+}
+.affix .header-search-cart {
+  padding-top: 6px;
+}
+.cd-search {
+  height: 100px;
+}
+.affix .cd-search {
+  height: 60px;
+}
+@media screen and (min-width: 1025px) {
+  .indent-header {
+    padding-top: 93px;
+  }
+  .indent-header.affix-indent {
+    padding-top: 60px;
+  }
+}
+.about-back {
+  height: 730px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vis-mis {
+  height: auto;
+  padding-top: 30px;
+  /*background-position: -38px 59px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/ABOUT/right shapes 900.jpg");
+}
+.ic-im {
+  display: flex;
+  /*  margin-left: 65px;*/
+}
+.ic-im h5 {
+  padding-top: 16px;
+  padding-left: 7px;
+  font-size: 16px;
+  color: #114563;
+  font-weight: 400;
+}
+.vis-mis-p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.vis-p {
+  margin-left: 10px;
+}
+.values {
+  /* background-color: #f4f9fe; */
+  margin-top: 50px;
+  /* padding-bottom: 50px; */
+}
+.values h2 {
+  padding-top: 20px;
+}
+.val-p {
+  margin-bottom: 55px;
+}
+.team-s {
+  height: 470px;
+  padding-top: 30px;
+  width: 100%;
+  background-position: 0px 59px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-image: url("../images/ABOUT/Team-background.png"); */
+}
+
+@media screen and (min-width: 280px) and (max-width: 600px) {
+  .mobile-vision {
+    display: block;
+  }
+  .desktop-vision {
+    display: none;
+  }
+  .about-back {
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .vis-mis {
+    height: auto;
+    padding-top: 30px;
+    background-position: -38px 59px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: none !important;
+  }
+  .ic-im {
+    display: flex;
+    /*  margin-left: 65px;*/
+  }
+  .ic-im h5 {
+    padding-top: 16px;
+    padding-left: 7px;
+    font-size: 16px;
+    color: #114563;
+    font-weight: 400;
+  }
+  .vis-mis p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .vis-mis h2 {
+    text-align: left;
+  }
+  .vis-p {
+    margin-left: 10px;
+  }
+  .values {
+    background-color: #f4f9fe;
+    /* margin-top:50px; */
+    height: auto;
+    /* padding-bottom: 50px; */
+    margin: none;
+  }
+  .values h2 {
+    padding-top: 20px;
+  }
+  .val-p {
+    margin-bottom: 55px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .team-s {
+    height: auto;
+    padding-top: 0px !important;
+    width: 100%;
+    /* background-position: 0px 59px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: none !important;
+  }
+  .team-s h2 {
+    text-align: left;
+  }
+  .team-s p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .page-title-large3-text-cont {
+    bottom: -10px !important;
+  }
+  .ci-bo {
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1084px) {
+  .about-back {
+    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .vis-mis {
+    height: 507px;
+    padding-top: 30px;
+    background-position: -2px 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/ABOUT/visio550tab.jpg");
+  }
+  .vis-mis h2 {
+    text-align: left;
+  }
+  .ic-im {
+    display: flex;
+    /*  margin-left: 65px;*/
+  }
+  .ic-im h5 {
+    padding-top: 16px;
+    padding-left: 7px;
+    font-size: 16px;
+    color: #114563;
+    font-weight: 500;
+  }
+  .vis-mis p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .vis-p {
+    line-height: 18px;
+    margin-left: 10px;
+  }
+  .values {
+    background-color: #f4f9fe;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .values h2 {
+    padding-top: 20px;
+  }
+  .val-p {
+    margin-bottom: 55px;
+  }
+  .team-s {
+    height: auto;
+    padding-top: 30px;
+    width: 100%;
+    background-position: -221px 49px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/ABOUT/Team-background.png");
+  }
+  .w-79 {
+    width: 79%;
+  }
+  /* .eye-image-logo{
+    background-color: #114563;
+    height: 100vh;
+    width:100%;
+} */
+  #t-box {
+    background-color: antiquewhite;
+  }
+}
+/* #value-t{
+    display: flex;
+    justify-content: space-evenly;
+
+} */
+#img-rad {
+  border-radius: 38px;
+}
+
+@media (min-width: 1500px) {
+  .vis-mis {
+    height: 600px !important;
+    padding-top: 30px;
+    background-position: -38px 59px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/ABOUT/vission mission 600.png");
+  }
+}
+p {
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+  color: #101010;
+}
+
+@media screen and (width: 1920px) {
+  .vis-mis {
+    height: 600px;
+    padding-top: 30px;
+    /* background-position: -38px 59px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/ABOUT/vissionmission600background(1).jpg);
+  }
+}
